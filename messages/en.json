@@ -1,0 +1,81 @@
+{
+  "Error": {
+    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>",
+    "title": "Something went wrong!"
+  },
+  "IndexPage": {
+    "description": "Premium class services and courses for beginners and professionals.",
+    "title": "Eyelash extension master with 5 years of experience",
+    "button": "Sign up"
+  },
+  "Master": {
+    "title": "About the master",
+    "description": "Hello!\n\nMy name is Anastasia and I am a certified eyelash extension artist with over 5 years of experience.\n\nMy main goal is to help each client feel confident and beautiful. My professional journey began with a sincere desire to create beauty. I have 5 certificates on my account confirming a high level of qualification."
+  },
+  "MyWork": {
+    "title": "My works on Instagram",
+    "button": "Subscribe"
+  },
+  "Accordion": {
+    "title": [
+      "Are eyelash extensions safe?",
+      "What materials are used?",
+      "What is included in the courses?",
+      "How to prepare for the procedure?"
+    ],
+    "content": [
+      "Eyelash extensions can be safe if the procedure is performed by a professional craftsman with quality materials and hygiene. It is important to take into account the health of the eyes and take care of the eyelashes after the procedure.",
+      "The quality of the procedure begins with the materials. Here's what you'll definitely need:\nTape - to protect the eyelids and fix the lower eyelashes.\nDegreaser and remover - tools for preparing eyelashes before extensions and for their safe removal.\nGlue - high-quality, resistant to moisture and temperature changes, because no one wants to eyelashes were peeled off after the first visit to the pool.\nTweezers – for various extension techniques.\nLashes – of different lengths, thicknesses, curves.",
+      "All necessary materials and tools for training. Methodical manuals (printed or electronic). International certificate. Support of the teacher within 1 month after the end of the course.",
+      "3 days before extensions, you should stop using oils, serums and other eyelash care products. The same applies to dyeing – if it is necessary, it is done in advance, a few days before the procedure."
+    ]
+  },
+  "LocaleLayout": {
+    "title": "kolibry-studio.com"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, en {🇬🇧} de {🇩🇪} pl {🇵🇱} ua {🇺🇦} other {Unknown}}"
+  },
+  "Manifest": {
+    "name": "kolibry-studio.com"
+  },
+  "Navigation": {
+    "home": "Main",
+    "services": "Our services",
+    "gallery": "Gallery",
+    "courses": "Courses",
+    "contacts": "Contacts"
+  },
+  "NotFoundPage": {
+    "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
+    "title": "Page not found"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "description": "Learn more about next-intl in the official docs.",
+        "href": "https://next-intl-docs.vercel.app/",
+        "title": "Docs"
+      },
+      "source": {
+        "description": "Browse the source code of this example on GitHub.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
+        "title": "Source code"
+      }
+    }
+  },
+  "PathnamesPage": {
+    "description": "<p>The pathnames are internationalized too.</p><p>If you're using the default language English, you'll see <code>/en/pathnames</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is localized accordingly (<code>/de/pfadnamen</code>).</p>",
+    "title": "Pathnames"
+  },
+  "footer": {
+    "our_servises": "Our services",
+    "gallery": "Gallery of works",
+    "courses": "Training courses",
+    "contacts_info": "Contact information",
+    "about_master": "About the master",
+    "my_works": "My works on Instagram",
+    "questions": "Frequently asked questions"
+  }
+}

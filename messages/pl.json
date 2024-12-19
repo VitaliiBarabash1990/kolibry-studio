@@ -1,0 +1,82 @@
+{
+  "Error": {
+    "description": "<p>Es ist leider ein Problem aufgetreten.</p><p>Du kannst versuchen <retry>diese Seite neu zu laden</retry>.</p>",
+    "title": "Etwas ist schief gelaufen!"
+  },
+  "IndexPage": {
+    "description": "Usługi i kursy klasy premium dla początkujących i profesjonalistów.",
+    "title": "Mistrz przedłużania rzęs z 5-letnim doświadczeniem",
+    "button": "Zapisać się"
+  },
+  "Master": {
+    "title": "O mistrzu",
+    "description": "Witam!\n\nNazywam się Anastazja i jestem certyfikowaną stylistką rzęs z ponad 5-letnim doświadczeniem.\n\nMoim głównym celem jest pomóc każdej klientce poczuć się pewnie i pięknie. Moja podróż zawodowa zaczęła się od szczerego pragnienia tworzyć piękno. Posiadam na koncie 5 certyfikatów potwierdzających wysoki poziom kwalifikacji."
+  },
+  "MyWork": {
+    "title": "Moje prace na Instagramie",
+    "button": "Subscribe"
+  },
+  "Accordion": {
+    "title": [
+      "Czy przedłużanie rzęs jest bezpieczne?",
+      "Jakie materiały są używane?",
+      "Co obejmuje kursy?",
+      "Jak przygotować się do zabiegu?"
+    ],
+    "content": [
+      "Przedłużanie rzęs może być bezpieczne, jeśli zabieg zostanie wykonany przez profesjonalnego rzemieślnika, przy użyciu wysokiej jakości materiałów i higieny. Należy mieć na uwadze zdrowie oczu i dbać o rzęsy po zabiegu.",
+      "Jakość zabiegu zaczyna się od materiałów. Oto, czego na pewno będziesz potrzebować:\nTaśma - do zabezpieczenia powiek i mocowania dolnych rzęs.\nOdtłuszczacz i zmywacz - narzędzia do przygotowania rzęs przed przedłużaniem i do ich bezpiecznego usunięcia.\nKlej - wysokiej jakości, odporny na wilgoć i temperaturę zmienia się, bo nikt nie chce, żeby rzęsy odpadły już po pierwszej wizycie na basenie.\nPęseta - do różnych technik przedłużania.\nRzęsy - różnej długości, grubość, zginanie.",
+      "Wszystkie niezbędne materiały i narzędzia do szkolenia. Podręczniki metodyczne (drukowane lub elektroniczne). Certyfikat międzynarodowy. Wsparcie lektora w ciągu 1 miesiąca od zakończenia kursu.",
+      "Na 3 dni przed przedłużaniem należy zaprzestać stosowania olejków, serum i innych produktów do pielęgnacji rzęs. To samo tyczy się farbowania – jeśli zajdzie taka potrzeba, należy to zrobić wcześniej, na kilka dni przed zabiegiem."
+    ]
+  },
+  "LocaleLayout": {
+    "title": "kolibry-studio.com"
+  },
+  "LocaleSwitcher": {
+    "label": "Sprache ändern",
+    "locale": "{locale, select, en {🇬🇧} de {🇩🇪} pl {🇵🇱} ua {🇺🇦} other {Unbekannt}}"
+  },
+  "Manifest": {
+    "description": "",
+    "name": "kolibry-studio.com"
+  },
+  "Navigation": {
+    "home": "Główny",
+    "services": "Nasze usługi",
+    "gallery": "Galeria",
+    "courses": "Kursy",
+    "contacts": "Łączność"
+  },
+  "NotFoundPage": {
+    "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln.",
+    "title": "Seite nicht gefunden"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "description": "Erfahre mehr über next-intl in der offiziellen Dokumentation.",
+        "href": "https://next-intl-docs.vercel.app/",
+        "title": "Dokumentation"
+      },
+      "source": {
+        "description": "Sieh dir den Quellcode dieses Beispiels auf GitHub an.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
+        "title": "Quellcode"
+      }
+    }
+  },
+  "PathnamesPage": {
+    "description": "<p>Auch die Pfadnamen sind internationalisiert.</p><p>Wenn du die Standardsprache Englisch verwendest, siehst du <code>/en/pathnames</code> in der Adressleiste des Browsers auf dieser Seite.</p><p>Wenn du die Sprache auf Deutsch änderst, wird die URL entsprechend lokalisiert (<code>/de/pfadnamen</code>).</p>",
+    "title": "Pfadnamen"
+  },
+  "footer": {
+    "our_servises": "Nasze usługi",
+    "gallery": "Galeria prac",
+    "courses": "Szkolenia",
+    "contacts_info": "Informacje kontaktowe",
+    "about_master": "O mistrzu",
+    "my_works": "Moje prace na Instagramie",
+    "questions": "Często zadawane pytania"
+  }
+}
