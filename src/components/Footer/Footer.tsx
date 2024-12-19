@@ -80,7 +80,7 @@ export default function Footer() {
           <li className={s.footer__contact_item}>
             <Link
               className={s.footer__contact_link}
-              href="tel:+38 (XXX) XXX-XX-XX"
+              href={'tel:+38 (XXX) XXX-XX-XX' as unknown as '/'}
               rel="stylesheet"
             >
               <svg className={s.footer__icon_link}>
@@ -92,7 +92,7 @@ export default function Footer() {
           <li className={s.footer__contact_item}>
             <Link
               className={s.footer__contact_link}
-              href="mailto:info@вашсайт.com"
+              href={'mailto:info@вашсайт.com' as unknown as '/'}
               rel="stylesheet"
             >
               <svg className={s.footer__icon_link}>
@@ -104,7 +104,9 @@ export default function Footer() {
           <li className={s.footer__contact_item}>
             <Link
               className={s.footer__contact_link}
-              href="https://maps.app.goo.gl/uG1iBrc1pddwTAUa6"
+              href={
+                'https://maps.app.goo.gl/DrGRC5HF7QuNUNvf7' as unknown as '/'
+              }
               rel="stylesheet"
               target="_blank"
             >
