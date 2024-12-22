@@ -17,9 +17,9 @@ export default function PageLayout({children, title}: Props) {
 
   return (
     <>
-      <header>
-        <h1>{title}</h1> {/* Используем title */}
-      </header>
+      {/* <header>
+        <h1>{title}</h1>
+      </header> */}
       {children}
     </>
   );

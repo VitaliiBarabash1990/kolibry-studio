@@ -17,6 +17,7 @@
     "button": "Subscribe"
   },
   "Accordion": {
+    "header_title": "Frequently asked questions",
     "title": [
       "Are eyelash extensions safe?",
       "What materials are used?",
@@ -29,6 +30,87 @@
       "All necessary materials and tools for training. Methodical manuals (printed or electronic). International certificate. Support of the teacher within 1 month after the end of the course.",
       "3 days before extensions, you should stop using oils, serums and other eyelash care products. The same applies to dyeing – if it is necessary, it is done in advance, a few days before the procedure."
     ]
+  },
+  "AccordionServices": {
+    "header_title": "Our services",
+    "title": [
+      "Eyelash extension services",
+      "Lamination and lifting",
+      "Eyebrow care",
+      "Additional services"
+    ],
+    "content_1": {
+      "method": [
+        "Eyelash extensions using the 1:1 method",
+        "Eyelash extensions 1:3",
+        "2D eyelash extensions",
+        "4D eyelash extensions",
+        "Eyelash extensions 5-6D",
+        "Eyelash extensions Mega Volume 7-9D VIP",
+        "L-effect eyelash extensions",
+        "Kim Kardashian effect",
+        "«Anime» effect (3D, 4D, 5D)",
+        "The effect of wet eyelashes",
+        "Eyelash correction for up to 3 weeks",
+        "Removal of eyelashes"
+      ],
+      "duration": [
+        "Duration: 2 hours",
+        "Duration: 2 hours 30 minutes",
+        "Duration: 2 hours 30 minutes",
+        "Duration: 2 hours 30 minutes",
+        "Duration: 2 hours 45 minutes",
+        "Duration: 3 hours",
+        "Duration: 2 hours 45 minutes",
+        "Duration: 2 hours 45 minutes",
+        "Duration: 2 hours 45 minutes",
+        "Duration: 2 hours",
+        "Duration: 1 hour 45 minutes",
+        "Duration: 30 min"
+      ],
+      "price": [
+        "180 zl",
+        "200 zl",
+        "190 zl",
+        "210 zl",
+        "220 zl",
+        "240 zl",
+        "200 zl",
+        "220 zl",
+        "240 zl",
+        "190 zl",
+        "160 zl",
+        "40 zl"
+      ]
+    },
+    "content_2": {
+      "method": ["Eyelash lamination", "Eyelash and eyebrow lifting + botox"],
+      "duration": ["Duration: 1 hour", "Duration: 1 hour 30 minutes"],
+      "price": ["150 zl", "250 zl"]
+    },
+    "content_3": {
+      "method": [
+        "Lamination of eyebrows",
+        "Correction of eyebrows",
+        "Correction of eyebrows + henna for eyebrows",
+        "Henna for eyebrows",
+        "Powder henna for eyebrows"
+      ],
+      "duration": [
+        "Duration: 50 min",
+        "Duration: 15 min",
+        "Duration: 30 min",
+        "Duration: 20 min",
+        "Duration: 15 min"
+      ],
+      "price": ["140 zl", "35 zl", "70 zl", "35 zl", "35 zl"]
+    },
+    "content_4": {
+      "method": ["Henna for eyelashes", "Facial depilation"],
+      "duration": ["Duration: 20 min", "Duration: 30 min"],
+      "price": ["40 zl", "40 zl"]
+    },
+    "button": "Sign up"
   },
   "LocaleLayout": {
     "title": "kolibry-studio.com"

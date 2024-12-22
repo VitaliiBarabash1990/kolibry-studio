@@ -1,5 +1,5 @@
 .nav__select {
-  width: 46px;
+  width: 52px;
   height: 40px;
   font-size: 25px;
   background: transparent;
@@ -43,7 +43,7 @@
   .arrow_icon {
     width: 18px;
     height: 10px;
-    right: 28px;
+    right: 18px;
     pointer-events: none;
   }
 }
