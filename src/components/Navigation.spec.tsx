@@ -15,14 +15,14 @@ jest.mock('next/navigation', () => ({
     prefetch: jest.fn(),
     replace: jest.fn()
   }),
-  useParams: () => ({locale: 'en'}),
-  useSelectedLayoutSegment: () => ({locale: 'en'})
+  useParams: () => ({locale: 'ua'}),
+  useSelectedLayoutSegment: () => ({locale: 'ua'})
 }));
 
 it('renders', () => {
   render(
     <NextIntlClientProvider
-      locale="en"
+      locale="ua"
       messages={pick(messages, ['Navigation', 'LocaleSwitcher'])}
     >
       <Navigation />

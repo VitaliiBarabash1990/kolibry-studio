@@ -26,7 +26,7 @@
   background: var(--background-accordion);
   box-shadow: 0 2px 2px 0 rgba(249, 145, 230, 0.25);
   color: var(--text-black);
-  padding: 19px 0px;
+  padding: 19px 4px;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
@@ -47,8 +47,8 @@
 .accordion__icon_arrow,
 .accordion__icon_arrow_top {
   fill: var(--text-black);
-  width: 19px;
-  height: 12px;
+  width: 17px;
+  height: 10px;
 }
 
 .accordion__icon_arrow {
