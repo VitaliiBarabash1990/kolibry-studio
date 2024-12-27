@@ -112,6 +112,77 @@
     },
     "button": "Sign up"
   },
+  "gallery": {
+    "title": "Gallery of works"
+  },
+  "training": {
+    "title": "Training courses",
+    "title_2": "Course program \"Professional eyelash extension\"",
+    "description": "Course duration: 3 days (18 hours)",
+    "title_3": "Graduation unit",
+    "descr_3": [
+      "Final testing (theoretical and practical).",
+      "Course Completion Certificate Presentation.",
+      "Recommendations for getting started: how to find your first customers and grow your business."
+    ],
+    "title_4": "What is included in the price of the course",
+    "descr_4": [
+      "All the necessary materials and tools for learning.",
+      "Methodological manuals (printed or electronic).",
+      "Certificate of international model.",
+      "Teacher's support for 1 month after completing the course."
+    ],
+    "section_1": {
+      "section_title": "Day 1\nTheoretical part",
+      "section_text_head": [
+        "Introduction: Basics of the profession",
+        "Hygiene and safety",
+        "Anatomy of eyelashes and eyes",
+        "Materials and tools",
+        "Master's workplace"
+      ],
+      "section_text": [
+        "What are eyelash extensions, the main Overview of current trends (1:1, 2D-9D, \"Kim Kardashian\", wet effect)",
+        "Sanitary standards and sterile Rules for working with clients for preservation",
+        "Types of eyelashes: natural characteristics and structures How to determine the optimal style of extensions depending on the shape of the eyes.",
+        "Overview of tools: tweezers, glue, pads, brushes. Types of false eyelashes: thickness, curves, length, material.",
+        "How to organize a comfortable and ergonomic place for work. Psychology of communication with clients."
+      ],
+      "button": "Sign up"
+    },
+    "section_2": {
+      "section_title": "Day 2\nPractice on training models",
+      "section_text_head": [
+        "Preparation for the procedure",
+        "Methods of building up",
+        "Learning to work with glue",
+        "Working with eye shapes"
+      ],
+      "section_text": [
+        "How to properly prepare natural eyelashes for extensions. Demonstration and practice of eyelash preparation.",
+        "Classic build-up (1:1). Volumetric augmentation (2D-9D). Modeling effects: \"cat look\", \"wet effect\", \"Kim Kardashian\".",
+        "Glue application technique. How to avoid gluing eyelashes.",
+        "Selection of length, curve and volume depending on the client's face. Practice on mannequins."
+      ],
+      "button": "Sign up"
+    },
+    "section_3": {
+      "section_title": "Day 3\nPractice on real models",
+      "section_text_head": [
+        "Complete build-up procedure",
+        "Correction and removal of eyelashes",
+        "Work with problem situations",
+        "Photos of works for the portfolio"
+      ],
+      "section_text": [
+        "Work with the first model under the supervision of the teacher. Error correction and technical improvement.",
+        "How to perform correction correctly. The technique of safe removal of eyelash extensions.",
+        "How to correct errors and asymmetry. Work with difficult clients.",
+        "How to properly photograph your work. Building your own brand in social networks."
+      ],
+      "button": "Sign up"
+    }
+  },
   "LocaleLayout": {
     "title": "kolibry-studio.com"
   },

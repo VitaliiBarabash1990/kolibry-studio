@@ -115,6 +115,77 @@
     },
     "button": "Melden Sie sich an"
   },
+  "gallery": {
+    "title": "Galerie der Werke"
+  },
+  "training": {
+    "title": "Schulungen",
+    "title_2": "Kursprogramm \"Professionelle Wimpernverlängerung\"",
+    "description": "Kursdauer: 3 Tage (18 Stunden)",
+    "title_3": "Abschlusseinheit",
+    "descr_3": [
+      "Abschlussprüfung (theoretisch und praktisch).",
+      "Übergabe der Abschlusszeugnisse.",
+      "Empfehlungen für den Einstieg: So finden Sie Ihre ersten Kunden und steigern Ihr Geschäft."
+    ],
+    "title_4": "Was ist im Kurspreis enthalten?",
+    "descr_4": [
+      "Alle notwendigen Materialien und Werkzeuge für die Schulung.",
+      "Methodische Handbücher (gedruckt oder elektronisch).",
+      "Internationales Zertifikat.",
+      "Unterstützung des Lehrers innerhalb eines Monats nach Ende des Kurses."
+    ],
+    "section_1": {
+      "section_title": "Tag 1\nTheoretischer Teil",
+      "section_text_head": [
+        "Einleitung: Grundlagen des Berufs",
+        "Hygiene und Sicherheit",
+        "Anatomie von Wimpern und Augen",
+        "Materialien und Werkzeuge",
+        "Arbeitsplatz des Meisters"
+      ],
+      "section_text": [
+        "Was sind Wimpernverlängerungen, die wichtigsten aktuellen Trends im Überblick (1:1, 2D-9D, \"Kim Kardashian\", Nasseffekt)",
+        "Hygienestandards und sterile Regeln für die Zusammenarbeit mit Kunden zur Konservierung",
+        "Wimpernarten: natürliche Eigenschaften und Strukturen So bestimmen Sie den optimalen Wimpernverlängerungsstil je nach Augenform.",
+        "Werkzeugübersicht: Pinzette, Kleber, Pads, Pinsel. Arten von falschen Wimpern: Dicke, Kurven, Länge, Material.",
+        "So organisieren Sie einen komfortablen und ergonomischen Arbeitsplatz. Psychologie der Kommunikation mit Kunden."
+      ],
+      "button": "Melden Sie sich an"
+    },
+    "section_2": {
+      "section_title": "Tag 2\nÜbung an Trainingsmodellen",
+      "section_text_head": [
+        "Vorbereitung auf den Eingriff",
+        "Aufbaumethoden",
+        "Lernen, mit Leim zu arbeiten",
+        "Arbeiten mit Augenformen"
+      ],
+      "section_text": [
+        "So bereiten Sie Naturwimpern richtig auf die Verlängerung vor. Demonstration und Übung der Wimpernvorbereitung.",
+        "Klassischer Aufbau (1:1). Volumetrische Augmentation (2D-9D). Modellierungseffekte: \"Katzenlook\", \"Wet-Effekt\", \"Kim Kardashian\".",
+        "Leimauftragstechnik. So vermeiden Sie das Verkleben von Wimpern.",
+        "Auswahl von Länge, Rundung und Volumen je nach Gesicht des Kunden. Üben Sie an Schaufensterpuppen."
+      ],
+      "button": "Melden Sie sich an"
+    },
+    "section_3": {
+      "section_title": "Tag 3\nÜben Sie an echten Modellen",
+      "section_text_head": [
+        "Kompletter Aufbauvorgang",
+        "Korrektur und Entfernung von Wimpern",
+        "Arbeiten Sie mit Problemsituationen",
+        "Fotos von Werken für das Portfolio"
+      ],
+      "section_text": [
+        "Arbeiten Sie unter Aufsicht des Lehrers mit dem ersten Modell. Fehlerbehebung und technische Verbesserung.",
+        "So führen Sie die Korrektur richtig durch. Die Technik zur sicheren Entfernung von Wimpernverlängerungen.",
+        "So korrigieren Sie Fehler und Asymmetrien. Arbeiten Sie mit schwierigen Kunden.",
+        "So fotografieren Sie Ihre Arbeit richtig. Aufbau Ihrer eigenen Marke in sozialen Netzwerken."
+      ],
+      "button": "Melden Sie sich an"
+    }
+  },
   "LocaleLayout": {
     "title": "kolibry-studio.com"
   },

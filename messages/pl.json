@@ -115,6 +115,77 @@
     },
     "button": "Zapisać się"
   },
+  "gallery": {
+    "title": "Galeria prac"
+  },
+  "training": {
+    "title": "Szkolenia",
+    "title_2": "Program kursu \"Profesjonalne przedłużanie rzęs\"",
+    "description": "Czas trwania kursu: 3 dni (18 godzin)",
+    "title_3": "Jednostka maturalna",
+    "descr_3": [
+      "Testy końcowe (teoretyczne i praktyczne).",
+      "Prezentacja zaświadczeń o ukończeniu kursu.",
+      "Zalecenia na początek: jak znaleźć pierwszych klientów i rozwijać swój biznes."
+    ],
+    "title_4": "Co jest wliczone w cenę kursu",
+    "descr_4": [
+      "Wszystkie niezbędne materiały i narzędzia do szkolenia.",
+      "Podręczniki metodyczne (drukowane lub elektroniczne).",
+      "Certyfikat międzynarodowy.",
+      "Wsparcie lektora w ciągu 1 miesiąca od zakończenia kursu."
+    ],
+    "section_1": {
+      "section_title": "Dzień 1\nCzęść teoretyczna",
+      "section_text_head": [
+        "Wprowadzenie: Podstawy zawodu",
+        "Higiena i bezpieczeństwo",
+        "Anatomia rzęs i oczu",
+        "Materiały i narzędzia",
+        "Miejsce pracy mistrza"
+      ],
+      "section_text": [
+        "Czym jest przedłużanie rzęs, główne Przegląd aktualnych trendów (1:1, 2D-9D, „Kim Kardashian”, efekt mokry)",
+        "Normy sanitarne i sterylne Zasady pracy z klientami w zakresie konserwacji",
+        "Rodzaje rzęs: naturalne cechy i struktury Jak określić optymalny styl przedłużeń w zależności od kształtu oczu.",
+        "Przegląd narzędzi: pęseta, klej, podkładki, pędzle. Rodzaje sztucznych rzęs: grubość, podkręcenie, długość, materiał.",
+        "Jak zorganizować wygodne i ergonomiczne miejsce do pracy. Psychologia komunikacji z klientem."
+      ],
+      "button": "Zapisać się"
+    },
+    "section_2": {
+      "section_title": "Dzień 2\nĆwiczenie na modelach treningowych",
+      "section_text_head": [
+        "Przygotowanie do zabiegu",
+        "Metody budowania",
+        "Nauka pracy z klejem",
+        "Praca z kształtami oczu"
+      ],
+      "section_text": [
+        "Jak prawidłowo przygotować rzęsy naturalne do przedłużania. Pokaz i praktyka przygotowania rzęs.",
+        "Klasyczna konfiguracja (1:1). Augmentacja wolumetryczna (2D-9D). Efekty modelujące: \"koci wygląd\", \"efekt mokry\", \"Kim Kardashian\".",
+        "Technika aplikacji kleju. Jak uniknąć sklejania rzęs.",
+        "Dobór długości, krzywizny i objętości w zależności od twarzy klientki. Ćwicz na manekinach."
+      ],
+      "button": "Zapisać się"
+    },
+    "section_3": {
+      "section_title": "Dzień 3\nĆwiczenie na prawdziwych modelach",
+      "section_text_head": [
+        "Pełna procedura budowania",
+        "Korekta i usuwanie rzęs",
+        "Pracuj z sytuacjami problemowymi",
+        "Zdjęcia prac do portfolio"
+      ],
+      "section_text": [
+        "Pracuj z pierwszym modelem pod okiem nauczyciela. Korekcja błędów i udoskonalenia techniczne.",
+        "Jak prawidłowo wykonać korekcję. Technika bezpiecznego usuwania przedłużonych rzęs.",
+        "Jak skorygować błędy i asymetrię. Pracuj z trudnymi klientami.",
+        "Jak prawidłowo sfotografować swoją pracę. Budowanie własnej marki w sieciach społecznościowych."
+      ],
+      "button": "Zapisać się"
+    }
+  },
   "LocaleLayout": {
     "title": "kolibry-studio.com"
   },

@@ -1,0 +1,41 @@
+.training__section {
+  border: 2.6px solid #f6dbf2;
+  padding: 16px 12px;
+  width: 100%;
+}
+
+.training__section_title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: var(--text-black);
+  margin-bottom: 32px;
+}
+.training__section_list {
+  text-align: left;
+}
+.training__section_item {
+  margin-bottom: 16px;
+}
+.training__section_item:last-child {
+  margin-bottom: 0px;
+}
+.training__section_text_head {
+  margin-bottom: 12px;
+}
+.training__section_text {
+  font-size: 12px;
+}
+.training__section_btn {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: var(--text-black);
+  width: 60%;
+  max-width: 210px;
+  height: 54px;
+  background: var(--button-color);
+  margin-top: 40px;
+}

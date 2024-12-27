@@ -72,7 +72,7 @@
 
 /* //Accordion services */
 .services__accordion_item {
-  border-bottom: 1px solid var(--text-black);
+  border-bottom: 0.27px solid var(--acordion-border);
   padding: 6px;
   /* height: 137px; */
   display: flex;
