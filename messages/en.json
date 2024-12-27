@@ -186,6 +186,11 @@
   "LocaleLayout": {
     "title": "kolibry-studio.com"
   },
+  "contacts": {
+    "title": "Contact information",
+    "schedule": "Work schedule with",
+    "google_map": "Plać wolnosci Swiności 5/8, Poland, 72-600 Swinoujscie"
+  },
   "LocaleSwitcher": {
     "label": "Change language",
     "locale": "{locale, select, en {🇬🇧} de {🇩🇪} pl {🇵🇱} ua {🇺🇦} other {Unknown}}"
