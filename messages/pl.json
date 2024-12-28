@@ -191,6 +191,18 @@
     "schedule": "Harmonogram pracy z",
     "google_map": "Plać wolnosci Swiności 5/8, Poland, 72-600 Swinoujscie"
   },
+  "formik": {
+    "title": "Wypełnij formularz:",
+    "name": "Twoje imię:",
+    "email": "E-mail::",
+    "message": "Wiadomość:",
+    "placeholder": [
+      "Wpisz nazwę",
+      "Wpisz adres e-mail",
+      "OSTRZEŻENIE! Pamiętaj, aby w wiadomości podać swój numer telefonu!"
+    ],
+    "button": "Zapisać się"
+  },
   "LocaleLayout": {
     "title": "kolibry-studio.com"
   },

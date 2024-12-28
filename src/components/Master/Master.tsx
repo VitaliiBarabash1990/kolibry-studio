@@ -3,6 +3,7 @@ import s from './Master.module.css';
 
 export function Master() {
   const t = useTranslations('Master');
+
   return (
     <div className={`container ${s.master__container}`}>
       <div className={s.master__}>

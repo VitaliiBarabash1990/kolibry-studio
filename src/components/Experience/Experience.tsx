@@ -1,17 +1,43 @@
+'use client';
+
 import {useTranslations} from 'next-intl';
 import s from './Experience.module.css';
+import Modal from '../Modal/Modal';
+import {useState} from 'react';
+import RegistrationForm from '../UI/RegistrationForm/RegistrationForm';
+// import Modal from '../Modal/Modal';
+// import {useState} from 'react';
 
 export function Experience() {
+  const [isOpen, setIsOpen] = useState(false);
   const t = useTranslations('IndexPage');
+
+  const handlerSubmit = () => {
+    setIsOpen(true);
+  };
+
+  const handlerClose = () => {
+    setIsOpen(false);
+  };
 
   return (
     <div className={`container ${s.experience__container}`}>
+      {/* {isOpen && <Modal>{t('title')}</Modal>} */}
       <div className={s.experience__left}>
         <h1 className={s.experience__title}>{t('title')}</h1>
         <p className={s.experience__text}>{t('description')}</p>
-        <button className={`button ${s.experience__button}`} type="button">
+        <button
+          className={`button ${s.experience__button}`}
+          type="button"
+          onClick={() => handlerSubmit()}
+        >
           {t('button')}
         </button>
+        {isOpen && (
+          <Modal close={handlerClose}>
+            <RegistrationForm />
+          </Modal>
+        )}
       </div>
       <div className={s.experience__right}>
         <div className={s.experience__right_img_front}>

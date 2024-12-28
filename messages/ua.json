@@ -188,6 +188,18 @@
     "schedule": "Графік роботи з",
     "google_map": "Plać wolnosci Swiności 5/8, Poland, 72-600 Swinoujscie"
   },
+  "formik": {
+    "title": "Заповніть форму :",
+    "name": "Ваше ім`я:",
+    "email": "Email:",
+    "message": "Повідомлення:",
+    "placeholder": [
+      "Введіть ім'я",
+      "Введіть email",
+      "Увага! В повідомленні обов'язково вкажіть свій номер телефону!"
+    ],
+    "button": "Записатись"
+  },
   "LocaleLayout": {
     "title": "kolibry-studio.com"
   },

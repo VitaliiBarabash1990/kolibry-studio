@@ -26,6 +26,7 @@ export default async function BaseLayout({children, locale}: Props) {
           <main>{children}</main>
           <Footer />
         </NextIntlClientProvider>
+        <div id="modal-root"></div>
       </body>
     </html>
   );

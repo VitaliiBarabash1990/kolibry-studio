@@ -191,6 +191,18 @@
     "schedule": "Work schedule with",
     "google_map": "Plać wolnosci Swiności 5/8, Poland, 72-600 Swinoujscie"
   },
+  "formik": {
+    "title": "Fill out the form:",
+    "name": "Your name:",
+    "email": "Email:",
+    "message": "Message:",
+    "placeholder": [
+      "Enter a name",
+      "Enter email",
+      "WARNING! Be sure to include your phone number in the message!"
+    ],
+    "button": "Sign up"
+  },
   "LocaleSwitcher": {
     "label": "Change language",
     "locale": "{locale, select, en {🇬🇧} de {🇩🇪} pl {🇵🇱} ua {🇺🇦} other {Unknown}}"
