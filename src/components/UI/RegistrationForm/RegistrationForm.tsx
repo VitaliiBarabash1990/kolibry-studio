@@ -1,21 +1,25 @@
-import {div} from 'framer-motion/client';
 import s from './RegistrationForm.module.css';
-import {ErrorMessage, Field, Form, Formik} from 'formik';
+import {ErrorMessage, Field, Form, Formik, FormikHelpers} from 'formik';
 import * as Yup from 'yup';
 import toast, {Toaster} from 'react-hot-toast';
 import {useTranslations} from 'next-intl';
+
+interface FormValues {
+  name: string;
+  email: string;
+  message: string;
+}
 
 export default function RegistrationForm() {
   const t = useTranslations('formik');
 
   const initialValues = {
     name: '',
-    number: ''
+    email: '',
+    message: ''
   };
 
   const onlyWords = /^[a-zA-Z]+$/;
-  const phoneNumberRules =
-    /^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/;
   const orderSchema = Yup.object().shape({
     name: Yup.string()
       .matches(onlyWords, 'ONLY WORDS')
@@ -23,13 +27,20 @@ export default function RegistrationForm() {
       .max(50, 'Максимум 50 символів')
       .required("Це поле обов'язкове!"),
     email: Yup.string()
-      .matches(phoneNumberRules, {message: 'Не коректрий номер телефону!'})
-      .required('Ви не ввели номер !')
+      .email('Не коректрий Email!')
+      .required('Введіть коректну email-адресу!'),
+    message: Yup.string()
+      .min(10, 'Повідомлення має бути не менш як 10 символів')
+      .max(300, 'Повідомлення має бути не більш як 300 символів')
+      .required("Це поле обов'язкове!")
   });
 
-  const succsessContact = () => toast('Contact successfully added!');
+  const succsessContact = () => toast.success('Contact successfully added!');
 
-  const handleAdd = (values, options) => {
+  const handleAdd = (
+    values: FormValues,
+    options: FormikHelpers<FormValues>
+  ) => {
     const newContact = {
       name: values.name,
       email: values.email,
