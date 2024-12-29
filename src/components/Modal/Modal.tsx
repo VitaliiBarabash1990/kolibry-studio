@@ -11,7 +11,7 @@ const Modal = ({children, close}: ModalProps) => {
   const [modalRoot, setModalRoot] = useState<HTMLElement | null>(null);
 
   useEffect(() => {
-    const root = document.querySelector('#modal-root');
+    const root = document.querySelector('#modal-root') as HTMLElement | null;
     setModalRoot(root);
   }, []);
 
