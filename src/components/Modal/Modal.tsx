@@ -2,7 +2,12 @@ import {useEffect, useState} from 'react';
 import ReactDOM from 'react-dom';
 import s from './Modal.module.css';
 
-const Modal = ({children, close}) => {
+type ModalProps = {
+  children: React.ReactNode;
+  close: () => void;
+};
+
+const Modal = ({children, close}: ModalProps) => {
   const [modalRoot, setModalRoot] = useState<HTMLElement | null>(null);
 
   useEffect(() => {
@@ -17,7 +22,7 @@ const Modal = ({children, close}) => {
   return ReactDOM.createPortal(
     <div className={s.wrapper}>
       <div className={s.content}>
-        <button className={s.closeBtn} onClick={() => close()}>
+        <button className={s.closeBtn} onClick={close}>
           ×
         </button>
         {children}

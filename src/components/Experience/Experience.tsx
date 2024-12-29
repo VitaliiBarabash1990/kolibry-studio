@@ -12,12 +12,8 @@ export function Experience() {
   const [isOpen, setIsOpen] = useState(false);
   const t = useTranslations('IndexPage');
 
-  const handlerSubmit = () => {
-    setIsOpen(true);
-  };
-
-  const handlerClose = () => {
-    setIsOpen(false);
+  const toggleModal = () => {
+    setIsOpen((prev) => !prev);
   };
 
   return (
@@ -29,12 +25,12 @@ export function Experience() {
         <button
           className={`button ${s.experience__button}`}
           type="button"
-          onClick={() => handlerSubmit()}
+          onClick={toggleModal}
         >
           {t('button')}
         </button>
         {isOpen && (
-          <Modal close={handlerClose}>
+          <Modal close={toggleModal}>
             <RegistrationForm />
           </Modal>
         )}
