@@ -3,6 +3,7 @@ import {ErrorMessage, Field, Form, Formik, FormikHelpers} from 'formik';
 import * as Yup from 'yup';
 import toast, {Toaster} from 'react-hot-toast';
 import {useTranslations} from 'next-intl';
+import axios from 'axios';
 
 interface FormValues {
   name: string;
@@ -37,7 +38,7 @@ export default function RegistrationForm() {
 
   const succsessContact = () => toast.success('Contact successfully added!');
 
-  const handleAdd = (
+  const handleAdd = async (
     values: FormValues,
     options: FormikHelpers<FormValues>
   ) => {
@@ -46,7 +47,15 @@ export default function RegistrationForm() {
       email: values.email,
       message: values.message
     };
-    // dispatch(addContact(newContact));
+
+    try {
+      await axios.post('http://localhost:5000/send-email', newContact);
+      toast.success('Сообщение отправлено!');
+      options.resetForm();
+    } catch (error) {
+      console.error('Ошибка отправки:', error);
+      toast.error('Ошибка при отправке сообщения');
+    }
     succsessContact();
     options.resetForm();
   };
