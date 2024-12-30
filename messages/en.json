@@ -195,12 +195,21 @@
     "title": "Fill out the form:",
     "name": "Your name:",
     "email": "Email:",
-    "message": "Message:",
-    "placeholder": [
-      "Enter a name",
-      "Enter email",
-      "WARNING! Be sure to include your phone number in the message!"
-    ],
+    "number": "Phone number:",
+    "placeholder": ["Enter a name", "Enter email", "Enter your phone number"],
+    "yup": {
+      "name": [
+        "ONLY WORDS",
+        "Minimum 3 characters!",
+        "Maximum 30 characters!",
+        "This field is required!"
+      ],
+      "email": ["Invalid Email!", "Enter a valid email address!"],
+      "number": [
+        "Incorrect phone number!",
+        "Enter the number in the format +380123456789 or +48123456789 without spaces!"
+      ]
+    },
     "button": "Sign up"
   },
   "LocaleSwitcher": {

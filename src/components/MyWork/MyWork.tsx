@@ -5,7 +5,7 @@ import s from './MyWork.module.css';
 export function MyWork() {
   const t = useTranslations('MyWork');
   return (
-    <div className={`container ${s.mywork__container}`}>
+    <div id="my_works" className={`container ${s.mywork__container}`}>
       <div className={s.mywork__wrap}>
         <div className={s.mywork__head}>
           <h2 className={s.mywork__title}>{t('title')}</h2>

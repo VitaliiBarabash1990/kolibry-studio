@@ -195,12 +195,28 @@
     "title": "Füllen Sie das Formular aus:",
     "name": "Ihr Name:",
     "email": "E-Mail:",
-    "message": "Nachricht:",
+    "number": "Telefonnummer:",
     "placeholder": [
       "Geben Sie einen Namen ein",
       "Geben Sie Ihre E-Mail-Adresse ein",
-      "WARNUNG! Geben Sie in der Nachricht unbedingt Ihre Telefonnummer an!"
+      "Geben Sie Ihre Telefonnummer ein"
     ],
+    "yup": {
+      "name": [
+        "NUR WORTE",
+        "Mindestens 3 Zeichen!",
+        "Maximal 50 Zeichen!",
+        "Dieses Feld ist erforderlich!"
+      ],
+      "email": [
+        "Ungültige E-Mail!",
+        "Geben Sie eine gültige E-Mail-Adresse ein!"
+      ],
+      "number": [
+        "Falsche Telefonnummer!",
+        "Geben Sie die Nummer im Format +380123456789 oder +48123456789 ohne Leerzeichen ein!"
+      ]
+    },
     "button": "Melden Sie sich an"
   },
   "LocaleLayout": {

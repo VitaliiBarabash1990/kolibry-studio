@@ -26,6 +26,7 @@
   border: none;
   font-size: 28px;
   cursor: pointer;
+  z-index: 999;
 }
 
 @media screen and (min-width: 768px) {

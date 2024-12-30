@@ -195,12 +195,28 @@
     "title": "Wypełnij formularz:",
     "name": "Twoje imię:",
     "email": "E-mail::",
-    "message": "Wiadomość:",
+    "number": "Numer telefonu:",
     "placeholder": [
       "Wpisz nazwę",
       "Wpisz adres e-mail",
-      "OSTRZEŻENIE! Pamiętaj, aby w wiadomości podać swój numer telefonu!"
+      "Wpisz swój numer telefonu"
     ],
+    "yup": {
+      "name": [
+        "TYLKO SŁOWA",
+        "Minimum 3 znaki!",
+        "Maksymalnie 30 znaków!",
+        "To pole jest wymagane!"
+      ],
+      "email": [
+        "Nieprawidłowy adres e-mail!",
+        "Wprowadź prawidłowy adres e-mail!"
+      ],
+      "number": [
+        "Nieprawidłowy numer telefonu!",
+        "Wprowadź numer w formacie +380123456789 lub +48123456789 bez spacji!"
+      ]
+    },
     "button": "Zapisać się"
   },
   "LocaleLayout": {

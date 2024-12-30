@@ -5,20 +5,17 @@ import s from './Experience.module.css';
 import Modal from '../Modal/Modal';
 import {useState} from 'react';
 import RegistrationForm from '../UI/RegistrationForm/RegistrationForm';
-// import Modal from '../Modal/Modal';
-// import {useState} from 'react';
 
 export function Experience() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpenModal, setIsOpenModal] = useState(false);
   const t = useTranslations('IndexPage');
 
   const toggleModal = () => {
-    setIsOpen((prev) => !prev);
+    setIsOpenModal((prev) => !prev);
   };
 
   return (
     <div className={`container ${s.experience__container}`}>
-      {/* {isOpen && <Modal>{t('title')}</Modal>} */}
       <div className={s.experience__left}>
         <h1 className={s.experience__title}>{t('title')}</h1>
         <p className={s.experience__text}>{t('description')}</p>
@@ -29,7 +26,7 @@ export function Experience() {
         >
           {t('button')}
         </button>
-        {isOpen && (
+        {isOpenModal && (
           <Modal close={toggleModal}>
             <RegistrationForm />
           </Modal>

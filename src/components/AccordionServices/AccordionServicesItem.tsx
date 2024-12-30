@@ -1,6 +1,8 @@
 import {motion} from 'framer-motion';
-import React from 'react';
+import React, {useState} from 'react';
 import s from './AccordionServices.module.css';
+import Modal from '../Modal/Modal';
+import RegistrationForm from '../UI/RegistrationForm/RegistrationForm';
 
 type ContentItem = {
   method: string;
@@ -23,6 +25,12 @@ export function AccordionItem({
   title,
   button
 }: AccordionProps) {
+  const [isOpenModal, setIsOpenModal] = useState(false);
+
+  const toggleModal = () => {
+    setIsOpenModal((prev) => !prev);
+  };
+
   return (
     <div className={s.accordion__wraper}>
       <div
@@ -77,7 +85,11 @@ export function AccordionItem({
                       <p className={s.services__accordion_text_price}>
                         {content.price}
                       </p>
-                      <button className={s.services__accordion_button}>
+                      <button
+                        className={s.services__accordion_button}
+                        type="button"
+                        onClick={toggleModal}
+                      >
                         {button}
                       </button>
                     </div>
@@ -87,6 +99,11 @@ export function AccordionItem({
             </ul>
           </motion.div>
         </motion.div>
+      )}
+      {isOpenModal && (
+        <Modal close={toggleModal}>
+          <RegistrationForm />
+        </Modal>
       )}
     </div>
   );

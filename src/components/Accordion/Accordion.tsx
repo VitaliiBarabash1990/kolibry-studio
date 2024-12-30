@@ -21,7 +21,7 @@ export function Accordion() {
   }
 
   return (
-    <div className={`container ${s.accordion__container}`}>
+    <div id="questions" className={`container ${s.accordion__container}`}>
       <div className={s.accordion__section}>
         <h2 className={s.accordion__title}>{t('header_title')}</h2>
         {sections.map((section, index) => (

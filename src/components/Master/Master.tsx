@@ -5,7 +5,7 @@ export function Master() {
   const t = useTranslations('Master');
 
   return (
-    <div className={`container ${s.master__container}`}>
+    <div id="About" className={`container ${s.master__container}`}>
       <div className={s.master__}>
         <h2 className={s.master__title}>{t('title')}</h2>
       </div>

@@ -6,8 +6,14 @@ import {AccordionItem} from './AccordionServicesItem';
 import s from './AccordionServices.module.css';
 
 export function AccordionServices() {
-  const t = useTranslations('AccordionServices');
+  const [isOpen, setIsOpen] = useState(false);
   const [openIndex, setOpenIndex] = useState<number | null>(null);
+
+  const t = useTranslations('AccordionServices');
+
+  const toggleModal = () => {
+    setIsOpen((prev) => !prev);
+  };
 
   const sections = [
     {

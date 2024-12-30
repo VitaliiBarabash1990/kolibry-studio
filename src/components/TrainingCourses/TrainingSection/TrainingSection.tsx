@@ -1,5 +1,9 @@
-import React from 'react';
+'use client';
+
+import React, {useState} from 'react';
 import s from './TrainingSection.module.css';
+import Modal from '@/components/Modal/Modal';
+import RegistrationForm from '@/components/UI/RegistrationForm/RegistrationForm';
 
 type TrainingItem = {
   title: string;
@@ -17,6 +21,11 @@ export default function TrainingSection({
   titleHead,
   button
 }: TrainingProps) {
+  const [isOpenModal, setIsOpenModal] = useState(false);
+  const toggleModal = () => {
+    setIsOpenModal((prev) => !prev);
+  };
+
   return (
     <div className={s.training__section}>
       <div>
@@ -39,7 +48,18 @@ export default function TrainingSection({
           })}
         </ul>
       </div>
-      <button className={s.training__section_btn}>{button}</button>
+      <button
+        className={s.training__section_btn}
+        type="button"
+        onClick={toggleModal}
+      >
+        {button}
+      </button>
+      {isOpenModal && (
+        <Modal close={toggleModal}>
+          <RegistrationForm />
+        </Modal>
+      )}
     </div>
   );
 }
