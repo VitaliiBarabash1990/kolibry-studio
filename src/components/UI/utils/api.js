@@ -3,7 +3,10 @@ import toast from 'react-hot-toast';
 
 export const sendMail = async (body) => {
   try {
-    await axios.post('http://localhost:5000/send-email', body);
+    await axios.post(
+      'https://kolibry-studio-back.onrender.com/send-email',
+      body
+    );
     toast.success('Сообщение отправлено!');
   } catch (error) {
     console.error('Ошибка отправки:', error);
